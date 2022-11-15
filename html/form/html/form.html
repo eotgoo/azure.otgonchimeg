@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="../css/form.css">
     <title>lesson1form</title>
 </head>
 <body>
@@ -14,14 +14,20 @@
         <div class="general">
             <h1>General information</h1>
             <form action="" method="post">
+                
                 <div>
                    <label for="firstname"></label>
                    <input id="firstname" name="ner" type="text" value="First Name">
+                
+                    <label for="lastname"></label>
+                    <input id="lastname" name="ovog" type="text" value="Last Name">
                 </div>
 
                 <div>
-                    <label for="lastname"></label>
-                    <input id="lastname" name="ovog" type="text" value="Last Name">
+                    <form>
+                        <label for="email"></label>
+                        <input id="email" name="email" type="text" value="Email">
+                    </form>
                 </div>
 
                 <div>
@@ -35,7 +41,7 @@
                 </div>
 
                 <div>
-                    <label for="position">Position</label>
+                    <label for="position" aria-valuetext="Position"></label>
                     <select name="Position" id="position">
                         <option value="">IT</option>
                         <option value="">UI/UX Design</option>
@@ -49,20 +55,20 @@
             <form action="" method="post">
                 <div>
                     <label for="street"></label>
-                    <input id="street" type="text">
+                    <input id="street" type="text" value="Street">
                 </div>
 
                 <div>
                     <label for="additionalinformation"></label>
-                    <input id="additionalinformation" type="text">
+                    <input id="additionalinformation" type="text" value="Additional Information">
                 </div>
 
                 <div>
                     <label for="zipcode"></label>
-                    <input id="zipcode" type="text">
+                    <input id="zipcode" type="text" value="Zip Code">
 
                     <label for="place"></label>
-                    <select name="place">
+                    <select name="place" aria-valuetext="Place">
                         <option>сүхбаатар</option>
                         <option>сонгинохайрхан</option>
                         <option>чингэлтэй</option>
@@ -82,10 +88,10 @@
 
                 <div>
                     <label for="code"></label>
-                    <input id="code" type="text">
+                    <input id="code" type="text" value="Code">
 
                     <label for="phonenumber"></label>
-                    <input id="phonenumber" type="text">
+                    <input id="phonenumber" type="text" value="Phone Number">
                 </div>
 
                 <div>
