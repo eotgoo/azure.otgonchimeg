@@ -1,0 +1,28 @@
+.box{
+    width: 400px;
+    height: 500px;
+    background-color: aqua;
+}
+
+.text{
+    border-top: 2px solid green;
+    transition-duration: 2s,;
+    transition-property: all;
+}
+
+.text:hover{
+    height: 200px;
+    background-color: orange;
+}
+
+.text h1{
+    font-size: 24px;
+    margin: 10px 20px 10px 20px;
+    transition-property: color , font-size,;
+    transition-duration: 1s, 2s;
+}
+
+.text h1:hover{
+    color: brown;
+    font-size: 48px;
+}

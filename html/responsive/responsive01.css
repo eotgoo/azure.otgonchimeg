@@ -1,0 +1,64 @@
+body{
+    background-color: aqua;
+
+}
+
+ /*mobile*/
+@media  screen and (max-width: 480px) {
+    .mobile{
+    background-color: red;
+    display: block;
+    }
+    .ipad, .laptops, .desktops, .extra {
+        display: none;
+    }
+}
+
+
+/*ipad and tablet*/
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .ipad{
+        background-color: azure;
+        display: block;
+    }
+    .desktops, .extra, .laptops, .mobile{
+        display: none;
+    }
+    
+}
+
+/*small screen and laptops*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .laptops{
+        background-color:green;
+        display: block;
+    }
+    .desktops, .extra, .ipad, .mobile{
+        display: none;
+    }
+}
+
+/*desktops ,large screens*/
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .desktops{
+        background-color:rgb(113, 0, 128);
+        display: block;
+    }
+    .mobile, .extra, .ipad, .laptops{
+        display: none;
+    }
+    
+}
+
+/* extra large screens*/
+@media screen and (min-width: 1201px) {
+    .extra{
+        background-color:rgb(128, 75, 0);
+        display: block;
+    }
+    .desktops, .ipad, .laptops, .mobile{
+        display: none;
+    }
+}
+
+
