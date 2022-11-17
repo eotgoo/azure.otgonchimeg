@@ -20,13 +20,14 @@
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    background-color: orange;
+    background-color: #5DA7DB;
   }
   
   .logo {
     color: white;
     font-size: 30px;
     font-weight: 800;
+    margin: 15px 20px;
   }
   
   nav ul {
@@ -43,5 +44,103 @@
     text-transform: uppercase;
     transition: all 0.3s;
   }
+
+  ul li a:hover{
+    color: black;
+  }
+
+  input[type="checkbox"] {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    opacity: 0;
+  }
+
+  .icon {
+    color: white;
+    font-size: 30px;
+    display: none;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    display: flex;
+  }
+
+  /*media display*/
+@media  screen and (max-width: 480px) {
+  body{
+  background-color: #7DE5ED;
+  }
+}
+
+
+/*ipad and tablet*/
+@media screen and (max-width: 768px){
+  body{
+      background-color: azure;
+  }
+  
+}
+
+/*small screen and laptops*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  body{
+      background-color:#B8E8FC;
+  }
+  .icon {
+    display: block;
+  }
+  .menu-wrap {
+    display: none;
+    right: -200px;
+    position: absolute;
+    top: 80px;
+    width: 200px;
+    background-color:#8D9EFF;
+    height: calc(100vh - 80px);
+    transition-property: all;
+    transition-duration: 1s;
+  }
+
+  input[type="checkbox"]:checked + .icon {
+    color: #1D1CE5;
+  }
+
+  input[type="checkbox"]:checked ~ .menu-wrap {
+    display: block;
+    right: 0;
+    transition-property: right;
+    transition-duration: 1s;
+  }
+
+  ul {
+    flex-direction: column;
+  }
+
+  ul li {
+    margin: 10px auto;
+  }
+}
+
+  
+
+
+/*desktops ,large screens*/
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  body{
+      background-color:#EEEEEE;
+  }
+  
+}
+
+/* extra large screens*/
+@media screen and (min-width: 1201px) {
+  body{
+      background-color:#3E6D9C;
+  }
+  
+}
+
   
   
