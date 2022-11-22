@@ -12,53 +12,253 @@
 </head>
 <body>
     <div class="container bg-light">
-        <div class="p-2">
-            <h4 class="text-center">Байгууллагын дотоод үйл ажиллагаанд зориулсан судалгаанд тавтай морил</h4>
+        
+        <div class="row">
+            <div class="col text-center">
+                <h4 class="mt-5">Байгууллагын дотоод үйл ажиллагаанд зориулсан судалгаанд тавтай морил</h4>
+            </div>
         </div>
-
+    
+        <div class="section mb-3">
             <h5>Ерөнхий мэдээлэл</h5>
 
-                <div class="mb-3">
-                  <label for="Lastname" class="form-label">Овог</label>
-                  <input type="text" class="form-control" id="Lastname">
-                </div>
+        <div class="row m-auto">
+            <div class="col-6">
+                <label for="firstname">Овог</label><br>
+                <input type="text" class="pt-2 pe-5 border  rounded">
+            </div>
+            <div class="col-6">Аймаг
+                <select class="form-select">
+                    <option selected>Сонгох</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+            </div>
+        </div>
+
+        <div class="row m-auto">
+            <div class="col-6">
+                <label for="firstname">Нэр</label><br>
+                <input type="text"  class="pt-2 pe-5 rounded border ">
+            </div>
+            <div class="col-6">Сум
+                <select class="form-select">
+                    <option selected>Сонгох</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+            </div>
+        </div>
+
+        <div class="row m-auto">
+            <div class="col-6">
+                <label for="firstname">Нас</label><br>
+                <input type="text"  class="pt-2 pe-5 border rounded">
+            </div>
+            <div class="col-6">Баг
+                <select class="form-select">
+                    <option selected>Сонгох</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+            </div>
+        </div>
+        <button type="submit" class="bg bg-warning border border-0 rounded btn btn-sm mt-3">Хадгалах</button>
+    </div><hr>
+
+    <div class="section mb-3">
+        <h5>Хэсэг I</h5>
+        <div class="mb-3">
+            <label for="process" class="me-5">Үйл ажиллагаа 1</label>
+            <input type="text" class="pt-2 pe-5 border rounded">
+        </div>
+        <div class="mb-3">
+            <label for="process" class="me-5">Үйл ажиллагаа 2</label>
+            <input type="text" class="pt-2 pe-5 border rounded">
+        </div>
+        <div class="mb-3">
+            <label for="process" class="me-5">Үйл ажиллагаа 3</label>
+            <input type="text" class="pt-2 pe-5 border rounded">
+        </div>
+
+        <div class="mb-3 d-flex">
+            <p class="me-5">Үйл ажиллагаа 4</p>
+            <div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="тийм">
+                  Тийм
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="үгүй">
+                  Үгүй
+                </label>
+              </div>
+            </div>
+        </div>
+
+
+        <div class="mb-3 d-flex">
+            <p class="me-4">Үйл ажиллагаа 5</p>
+            <div>
+                <div class="form-check">
+                    <input  type="checkbox">
+                    <label  for="шинэ жил">Шинэ жил</label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox">
+                    <label for="цагаан сар">Цагаан сар</label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox">
+                    <label for="хүүхдийн баяр">Хүүхдийн баяр</label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox">
+                    <label for="наадам">Наадам</label>
+                  </div>
+            </div>
+        </div>
+        <button type="submit" class="bg bg-secondary border border-0 rounded btn btn-sm mt-3 text-light">Хадгалах</button>
+
+    </div><hr>
+
+    <div class="section mb-3">
         
-                <div class="mb-3">
-                  <label for="firstname" class="form-label">Нэр</label>
-                  <input type="text" class="form-control" id="firstname" >
-                </div>
-                
-                <div class="mb-3">
-                    <label for="age" class="form-label">Нас</label>
-                    <input type="text" class="form-control" id="age" >
-                </div>
+        <h5>Хэсэг II</h5>
+        <div class="row mb-2">
+            <div class="col-6 ">
+                <label for="name"></label>
+                <input type="text" class="pt-2 pb-2 pe-5 border rounded text-secondary" value="name">
+            </div>
+            <div class="col-6"> 
+                <label for="firstname"></label>
+                <input type="text" class="pt-2 pb-2 pe-5 border rounded text-secondary" value="firstname">
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="col-6">
+                <label for="gender"></label>
+                <input type="text" class="pt-2 pb-2 pe-5 pw-5 border rounded text-secondary" value="gender">
+            </div>
+            <div class="col-6">
+                <label for="age"></label>
+                <input type="text" class="pt-2 pb-2 pe-5 pw-5 border rounded text-secondary" value="age">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 ">
+                <label for="city"></label>
+                <input type="text" class="pt-2 pe-5 pb-2 border rounded text-secondary" value="city">
+            </div>
+            <div class="col-3">
+                <label for="state"></label>
+                <input type="text" class="pt-2 pb-2 mw-1 border rounded text-secondary" value="state">
+            </div>
+            <div class="col-3">
+                <label for="zip"></label>
+                <input type="text" class="pt-2 pb-2 border rounded text-secondary" value="zip">
+            </div>
+        </div>
+        <button type="submit" class="bg bg-primary border border-0 rounded btn btn-sm mt-3 text-light">Хадгалах</button>
+    </div><hr>
 
-                <label for="city">Аймаг</label>
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>Сонгох</option>
-                        <option>UB</option>
-                        <option>Dornogowi</option>
-                        <option>Three</option>
-                    </select>
+    <div class="section mb-3">
+        <h5>Хэсэг III</h5>
 
-                <label for="city">Сум</label>
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>Сонгох</option>
-                        <option>Simba</option>
-                        <option>Two</option>
-                        <option>Three</option>
-                    </select>
+        <table class="table">
+            <thead >
+              <tr class="text-center">
+                <th scope="col">Ногоо</th>
+                <th scope="col">Сүүлийн 12 сард та [НЭР ТӨРӨЛ] ургац хураан авсан уу? </th>
+                <th scope="col">Өрхийн хэрэгцээнд хэрэглэсэн (D01) </th>
+                <th scope="col">Малын тэжээлд зориулсан (D02)</th>
+                <th scope="col">Худалдсан (D03)</th>
+              </tr>
+            </thead>
 
-                <label for="city">Баг</label>
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>Сонгох</option>
-                        <option>Idk</option>
-                        <option>Two</option>
-                        <option>Three</option>
-                    </select>
+            <tbody>
+              <tr >
+                <td>Төмс</td>
+                <td class="text-center"> 
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="тийм">
+                      Тийм
+                    </label>
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="үгүй">
+                      Үгүй
+                    </label>
+                </td>
+                <td>
+                    <input type="text" value="D01" class="text-secondary rounded border">
+                </td>
+                <td>
+                    <input type="text" value="D02" class="text-secondary rounded border">
+                </td>
+                <td> 
+                    <input type="text" value="D03" class="text-secondary rounded border">
+                </td>
+              </tr>
 
-                    <button class="btn btn-warning" type="submit">Хадгалах</button><hr>
-         </div>
+              <tr>
+                <td>Байцаа</td>
+                <td class="text-center">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="тийм">
+                      Тийм
+                    </label>
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="үгүй">
+                      Үгүй
+                    </label>
+                </td>
+                <td>
+                    <input type="text" value="D01" class="text-secondary rounded border">
+                </td>
+                <td>
+                    <input type="text" value="D02" class="text-secondary rounded border">
+                </td>
+                <td> 
+                    <input type="text" value="D03" class="text-secondary rounded border">
+                </td>
+              </tr>
+
+              <tr>
+                <td>Лууван</td>
+                <td class="text-center">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="тийм">
+                      Тийм
+                    </label>
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="үгүй">
+                      Үгүй
+                    </label>
+                </td>
+                <td>
+                    <input type="text" value="D01" class="text-secondary rounded border">
+                </td>
+                <td>
+                    <input type="text" value="D02" class="text-secondary rounded border">
+                </td>
+                <td> 
+                    <input type="text" value="D03" class="text-secondary rounded border">
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
+          <button type="submit" class="bg bg-success border border-0 rounded btn btn-sm mt-3 mb-3 text-light">Хадгалах</button>
+    </div>
+
+
+    </div>
     
 </body>
 </html>
