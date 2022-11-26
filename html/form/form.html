@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="css/form.css">
     <title>form-task1</title>
 </head>
 <body>
@@ -17,35 +17,36 @@
                 
                 <div>
                    <label for="firstname"></label>
-                   <input id="firstname" name="ner" type="text" value="First Name">
+                   <input id="firstname" type="text" value="First Name">
                 
                     <label for="lastname"></label>
-                    <input id="lastname" name="ovog" type="text" value="Last Name">
+                    <input id="lastname" type="text" value="Last Name">
                 </div>
 
                 <div>
                     <form>
                         <label for="email"></label>
-                        <input id="email" name="email" type="text" value="Email">
+                        <input id="email" type="text" value="Email">
                     </form>
                 </div>
 
                 <div>
                     <label for="date"></label>
-                    <input id="date" name="onsarudur" type="date">
+                    <input id="date" type="date">
                 </div>
 
                 <div>
                     <label for="company"></label>
-                    <input id="company" name="companyname" type="text" value="Company">
+                    <input id="company" type="text" value="Company">
                 </div>
 
                 <div>
-                    <label for="position" aria-valuetext="Position"></label>
-                    <select name="Position" id="position">
-                        <option value="">IT</option>
-                        <option value="">UI/UX Design</option>
-                    </select>
+                    <label for="position"></label>
+                    <select class="position">
+                        <option>Position</option>
+                        <option>IT</option>
+                        <option>UI/UX Design</option>
+                    </select><hr>
                 </div>
             </form>
         </div>
@@ -68,7 +69,8 @@
                     <input id="zipcode" type="text" value="Zip Code">
 
                     <label for="place"></label>
-                    <select name="place">Place
+                    <select class="place">
+                        <option>Place</option>
                         <option>сүхбаатар</option>
                         <option>сонгинохайрхан</option>
                         <option>чингэлтэй</option>
@@ -79,9 +81,10 @@
 
                 <div>
                     <label for="country"></label>
-                    <select name="country" id="country">
-                        <option value="">Монгол</option>
-                        <option value="">Гадаад</option>
+                    <select class="country">
+                        <option>Country</option>
+                        <option>Монгол</option>
+                        <option>Гадаад</option>
                     </select>
                 </div>
 
@@ -99,8 +102,8 @@
                     <label for="accept">I do accept the Terms and conditions of your site.</label>
                 </div>
 
-                <div>
-                    <input type="submit" id="register">
+                <div class="submit">
+                   <button type="submit">Register Badge</button>
                 </div>
             </form>
         </div>
