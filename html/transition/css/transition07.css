@@ -1,0 +1,41 @@
+.shadow{
+    margin: auto;
+    width: 700px;
+    height: 700px;
+    border: 2px solid black;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.squares{
+    display: flex;
+    gap: 20px;
+}
+.squares1{
+    margin-top: 245px;
+    margin-left: 240px;
+    transition-property: all;
+    transition-duration: 2s;
+}
+.squares1:hover{
+    left: 0;
+    top: 0;
+}
+.squares2{
+    margin-top: 20px;
+    margin-left: 240px;
+    margin-bottom: 245px;
+}
+.square1{
+    background-color: red;
+    opacity: 0.3;
+    transition-property: all;
+    transition-duration: 2s;
+}
+.square1:hover{
+    left: 0;
+    top: 0;
+    opacity: 1;
+}

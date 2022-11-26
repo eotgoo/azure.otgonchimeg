@@ -1,0 +1,26 @@
+.main{
+    margin: auto;
+}
+.switch{
+    width: 150px;
+    height: 70px;
+    background-color: #ababab;
+    position: absolute;
+    border-radius: 70px;
+    border: 2px solid black;
+}
+.slide{
+    position: absolute;
+    display: inline-block;
+    display: inline;
+    width: 80px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition-duration: 3s;
+    transition-property: all;
+    transition-timing-function: linear;
+}
+.slide:hover{
+    right: 0;
+}
