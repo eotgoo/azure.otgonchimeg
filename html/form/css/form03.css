@@ -1,0 +1,22 @@
+.box{
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid #ababab;
+}
+.main{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+input{
+    height: 24px;
+    margin-bottom: 10px;
+}
+.main-items{
+    width: 300px;
+}
+textarea{
+    margin-top: 10px;
+}

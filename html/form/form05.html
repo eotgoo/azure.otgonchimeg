@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-task5</title>
+    <link rel="stylesheet" href="css/form05.css">
+</head>
+<body>
+    <div class="general">
+        <h1>Social Media хэрэглэгчдийн судалгаа</h1>
+        <p>Судалгаанд оролцсон таньд баярлалаа</p>
+        <div class="main">
+            <fieldset class="fieldset1">
+                <legend>Ерөнхий мэдээлэл</legend>
+                <label for="name">Нэр</label><br>
+                <input type="text" required><br>
+                <label for="email">И-мэйл</label><br>
+                <input type="email" required><br>
+                <label for="age">Нас</label><br>
+                <input type="range"  min="14" max="99" value="90">
+            </fieldset>
+
+            <fieldset class="fieldset2">
+                <legend>Social media</legend>
+                <label for="time">Та өдөрт хэдэн цаг social media ашигладаг вэ?</label><br>
+                <select>
+                    <option>1-2цаг</option>
+                    <option>+3 цаг</option>
+                </select><br>
+                 
+                <div class="radio12">
+                <label for="question1">Та онлайнаар худалдан авалт хийх, дэлгүүр орж худалдан хийхийн альныг нь илүүд үздэг вэ?</label><br>
+                <input type="radio" id="online">
+                <label for="online">Онлайн худалдан авалт</label><br>
+                <input type="radio" id="shop">
+                <label for="shop">Дэлгүүр орж худалдан авалт хийх</label>
+                </div>
+
+                <div class="checkbox">
+                    <label for="type">Та ямар social media ашигладаг вэ?</label><br>
+                    <input type="checkbox">
+                    <label for="instagram">instagram</label><br>
+                    <input type="checkbox">
+                    <label for="twitter">twitter</label><br>
+                    <input type="checkbox">
+                    <label for="reddit">reddit</label><br>
+                    <input type="checkbox">
+                    <label for="Snapchat">Snapchat</label><br>
+                    <input type="checkbox">
+                    <label for="youtube">youtube</label><br>
+                    <input type="checkbox">
+                    <label for="others">Бусад</label><br>
+                </div>
+            </fieldset>
+
+            <div class="last">
+                <label for="msg">Санал хүсэлт</label><br>
+                <textarea id="feedback" rows="4" cols="50" maxlength="300">Санал хүсэлтээ энд бичнэ үү</textarea><br>
+                <input type="submit" value="Илгээх"> 
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

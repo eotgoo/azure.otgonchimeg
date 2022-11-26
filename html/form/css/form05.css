@@ -1,0 +1,64 @@
+.general{
+    background-image: url(https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    width: 800px;
+    height: 750px;
+    background-color: red;
+    margin: auto;
+}
+.general h1{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
+}
+.general p{
+    text-align: center;
+    margin-top: 0;
+    font-size: 18px;
+}
+.main{
+    width: 600px;
+    margin: auto;
+    background: rgba(80, 80, 225, 0.4);
+}
+fieldset{
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.fieldset1 input{
+    width: 520px;
+    height: 20px;
+}
+
+select{
+    width: 520px;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.last{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.last input{
+    width: 580px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+textarea{
+    width: 572px;
+    color: #ababab;
+}
+.fieldset1 input:required {
+    border-color: #800000;
+    border-width: 3px;
+}
+.fieldset1 input:invalid {
+    background-color: #ffdddd;
+}
+.fieldset1 input:valid {
+    background-color: #ddffdd;
+}
