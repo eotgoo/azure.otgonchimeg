@@ -1,0 +1,40 @@
+.container{
+    margin: auto;
+}
+@media screen and (min-width: 1024px) {
+    .container{
+        display: flex;
+        gap: 20px;
+    }
+    .images{
+        display: flex;
+        gap: 20px;
+    }
+    .img{
+        height: 100px;
+        object-fit: cover;
+    }
+    .images{
+        margin-top: 10px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .img{
+        height: 100px;
+        object-fit: cover;
+    }
+    .images{
+        margin-top: 10px;
+        display: flex;
+        gap: 20px;
+    }
+}
+@media screen and (min-width:340px) {
+    .container{
+        margin: auto;
+    }
+    .img{
+        height: 100px;
+        object-fit: cover;
+    }
+}
