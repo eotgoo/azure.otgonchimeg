@@ -55,3 +55,7 @@ console.log(uurinner)
  let x= 1;
 
  console.log("m = y2-y1/x2-x1" , y**2-y**1/x**2-x**1)
+
+//task14
+
+
