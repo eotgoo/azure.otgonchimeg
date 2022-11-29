@@ -18,25 +18,28 @@ console.log(typeof color);
 
 //variable.js
 
+// task 6 7
 let uurinner = "naraa";
+let car;
 
 console.log(uurinner)
+console.log(car)
 
-/*
-   let firstname = "otgoo";
-   let lastname = "erdene";
-   let country = "mgl";
+// task 8 9
+ let firstname = "otgoo"
+ let lastname = "erdene"
+ let maritalstatus = "single"
+ let country = "mgl"
 
-   connsole.log(firstname);
-   console.log(lastname);
-   console.log(country); 
-*/
+ let haha ="" ; let hoho =""; let hihi = "" ; let huhu = "";
+
 
  let myage = 18;
  let yourage = 21;
 
  console.log(myage)
  console.log(yourage)
+
 //triangleS
  let a = 10;
  let b = 5;
@@ -49,13 +52,31 @@ console.log(uurinner)
 
  console.log("s=p*r2" , p+r**2 )
 
-//task13
+//task12
 
  let y = 1;
  let x= 1;
 
  console.log("m = y2-y1/x2-x1" , y**2-y**1/x**2-x**1)
 
+//task13
+
+let gb = 15;
+console.log("15gb=" , gb*2**30*8)
+
 //task14
 
+let mb = 15;
+console.log("15mb=" , mb*2**20*8)
+console.log("Bps=" , mb*2**20*8*3)
 
+//task15
+let side1 = 10;
+let side2 = 20;
+let side3 = 10;
+
+console.log("triagnleS=" , 1/2*10*20)
+
+//task16
+
+   
