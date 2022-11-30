@@ -7,12 +7,12 @@ let ner = 'otgonchimeg';
 let nernitoo = ner.length;
 
 let ovog = 'erdenechimeg';
-let ovogniner = ovog.length;
+let ovogniitoo = ovog.length;
 
-if(nernitoo>=ovogniner) {
+if(nernitoo>=ovogniitoo) {
     console.log('nernitoo urt')
 } else {
-    console.log('ovogniner urt')
+    console.log('ovogniitoo urt')
 }
 
 
