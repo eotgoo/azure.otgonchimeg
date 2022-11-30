@@ -30,7 +30,6 @@ if (gender === 'male' && age >= 18) {
 }
 
 //task1
-
 let a = 85;
 let b = 75;
 let c = 96;
@@ -51,6 +50,7 @@ if ( d > 80 ){
 }
 console.log("sum=" , sum)
 
+
 //task2-1
 let i = 4 > 3; //true
 let iii = 4 < 3; //false
@@ -66,6 +66,7 @@ let xi = 4 === "4"; //false
 
 console.log(i , iii, ii, iv, v, vi, vii, iix, ix, x, xi)
 
+
 //task2-2
 let one = 4 > 3 && 10 < 12; //true
 let two = 4 > 3 && 10 > 12; //false
@@ -79,6 +80,7 @@ let ten = !(4 === "4"); //true
 
 console.log (one, two, three, four, five, six, eight, nine, ten)
 
+
 //task2-3
 let myAge = 18;
 let yourAge =  prompt("та насаа оруулна уу");
@@ -88,6 +90,7 @@ if ( yourAge > myAge) {
 }else if (yourAge < myAge ){
     console.log('залуухан байна')
 }
+
 
 //task2-4
 let days = prompt('та өдрөө оруулна уу');
@@ -111,20 +114,77 @@ if (days == 1) {
 
 console.log(daysname)
 
+
 //task2-5
 let hours = prompt('та цагаа оруулна уу');
 let ratePerHour = 28;
 
-console.log("Таны ажилласан цагийн хөлс" , hours*28)
+console.log("Таны ажилласан цагийн хөлс:" , hours*28)
+
 
 //task3
-let e = prompt('та жилээ оруулвал орууул!!!')
+let year = prompt('та жилээ оруулна уу')
 
-if(((e%4==0) && !(e%100==0) || (e%400==0))){
-    console.log('true')
+if ( year%400===0 ) {
+    console.log('mon')
+} else if ( year%100===0 ) {
+    console.log('bish')
+} else if ( year%400===0 ) {
+    console.log('mon')
 } else {
-    console.log('false')
+    console.log('bish')
 }
+
+
+//task4
+let e = 1;
+let f = 2;
+let g = 3;
+console.log('hamgiin ih too:',g)
+console.log('hamgiin baga too:',e)
+
+
+//task5
+let h = 120;
+let l = 33;
+let m = 10;
+let n = 12;
+console.log('baga too :' , m)
+
+
+//task6
+let name1 = 'Bat';
+let name1Dun = 69;
+
+if(name1Dun<=59) {
+    console.log('mash muu')
+} else if(name1Dun>=69) {
+    console.log('hangalttai')
+} else if(name1Dun>=79) {
+    console.log('dund')
+} else if(name1Dun>=89) {
+    console.log('sain')
+} else if(name1Dun>=100) {
+    console.log('mash sain')
+}
+
+let = 'name2'
+let name2Dun = 56;
+
+if(name2Dun<=59) {
+    console.log('mash muu')
+} else if(name2Dun>=69) {
+    console.log('hangalttai')
+} else if(name2Dun>=79) {
+    console.log('dund')
+} else if(name2Dun>=89) {
+    console.log('sain')
+} else if(name2Dun>=100) {
+    console.log('mash sain')
+}
+
+
+//task7
 
 
 
