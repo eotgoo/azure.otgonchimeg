@@ -17,14 +17,14 @@ weekName = "Ням"
 } else {
 weekName = "Буруу тоо"
 }
-console.log(weekName)
+console.log(weekName);
 
 
-let gender = 'male'
+let gender = 'male';
 let age = 19;
 
 if (gender === 'male' && age >= 18) {
-    console.log('насанд хүрсэн эрэгтэй')
+    console.log('насанд хүрсэн эрэгтэй');
 }else {
     console.log('насанд хүрээгүй эсвэл хүйс тохирохгүй байна');
 }
@@ -46,9 +46,9 @@ if ( c > 80 ){
     sum=sum+c;
 }
 if ( d > 80 ){
-    sum=sum+d
+    sum=sum+d;
 }
-console.log("sum=" , sum)
+console.log("sum=" , sum);
 
 
 //task2-1
@@ -64,7 +64,7 @@ let ix = 4 != "4"; //false
 let x = 4 == "4"; //true
 let xi = 4 === "4"; //false
 
-console.log(i , iii, ii, iv, v, vi, vii, iix, ix, x, xi)
+console.log(i , iii, ii, iv, v, vi, vii, iix, ix, x, xi);
 
 
 //task2-2
@@ -78,7 +78,7 @@ let eight = !(4 > 3 && 10 < 12); //false
 let nine = !(4 > 3 && 10 > 12); //true
 let ten = !(4 === "4"); //true
 
-console.log (one, two, three, four, five, six, eight, nine, ten)
+console.log (one, two, three, four, five, six, eight, nine, ten);
 
 
 //task2-3
@@ -86,9 +86,9 @@ let myAge = 18;
 let yourAge =  prompt("та насаа оруулна уу");
 
 if ( yourAge > myAge) {
-    console.log('хөгшин байна')
+    console.log('хөгшин байна');
 }else if (yourAge < myAge ){
-    console.log('залуухан байна')
+    console.log('залуухан байна');
 }
 
 
@@ -112,27 +112,27 @@ if (days == 1) {
     daysname = 'амралтын өдөр';
 } else (daysname = 'Буруу тоо')
 
-console.log(daysname)
+console.log(daysname);
 
 
 //task2-5
 let hours = prompt('та цагаа оруулна уу');
 let ratePerHour = 28;
 
-console.log("Таны ажилласан цагийн хөлс:" , hours*28)
+console.log("Таны ажилласан цагийн хөлс:" , hours*28);
 
 
 //task3
-let year = prompt('та жилээ оруулна уу')
+let year = prompt('та жилээ оруулна уу');
 
 if ( year%400===0 ) {
-    console.log('mon')
+    console.log('mon');
 } else if ( year%100===0 ) {
-    console.log('bish')
+    console.log('bish');
 } else if ( year%400===0 ) {
-    console.log('mon')
+    console.log('mon');
 } else {
-    console.log('bish')
+    console.log('bish');
 }
 
 
@@ -140,8 +140,8 @@ if ( year%400===0 ) {
 let e = 1;
 let f = 2;
 let g = 3;
-console.log('hamgiin ih too:',g)
-console.log('hamgiin baga too:',e)
+console.log('hamgiin ih too:',g);
+console.log('hamgiin baga too:',e);
 
 
 //task5
@@ -149,7 +149,7 @@ let h = 120;
 let l = 33;
 let m = 10;
 let n = 12;
-console.log('baga too :' , m)
+console.log('baga too :' , m);
 
 
 //task6
@@ -157,30 +157,30 @@ let name1 = 'Bat';
 let name1Dun = 69;
 
 if(name1Dun<=59) {
-    console.log('mash muu')
+    console.log('mash muu');
 } else if(name1Dun>=69) {
     console.log('hangalttai')
 } else if(name1Dun>=79) {
-    console.log('dund')
+    console.log('dund');
 } else if(name1Dun>=89) {
-    console.log('sain')
+    console.log('sain');
 } else if(name1Dun>=100) {
-    console.log('mash sain')
+    console.log('mash sain');
 }
 
-let = 'name2'
+let = 'name2';
 let name2Dun = 56;
 
 if(name2Dun<=59) {
-    console.log('mash muu')
+    console.log('mash muu');
 } else if(name2Dun>=69) {
-    console.log('hangalttai')
+    console.log('hangalttai');
 } else if(name2Dun>=79) {
-    console.log('dund')
+    console.log('dund');
 } else if(name2Dun>=89) {
-    console.log('sain')
+    console.log('sain');
 } else if(name2Dun>=100) {
-    console.log('mash sain')
+    console.log('mash sain');
 }
 
 

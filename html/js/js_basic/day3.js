@@ -10,9 +10,9 @@ let ovog = 'erdenechimeg';
 let ovogniitoo = ovog.length;
 
 if(nernitoo>=ovogniitoo) {
-    console.log('nernitoo urt')
+    console.log('nernitoo urt');
 } else {
-    console.log('ovogniitoo urt')
+    console.log('ovogniitoo urt');
 }
 
 
