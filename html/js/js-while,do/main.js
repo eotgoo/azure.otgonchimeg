@@ -37,7 +37,8 @@ console.log ('1-10 hurtelh natural tesgh too');
 console.log ('1-100 hurtelh natural tooni niilber');
 
  let sum = 1;
- let a = 2; do {    
+ let a = 2; 
+ do {    
      console.log(sum);    
      sum += a;    
      a++; 
@@ -91,15 +92,15 @@ if(too === 2){
 
 //task1-7 "ugugdsun interval dahi anhni toog hewleh"
 
-let lowerNumber = 1;
-let higherNumber = 10;
-let l=2 ;
-let m;
+ let lowerNumber = 1;
+ let higherNumber = 10;
+ let l=2 ;
+ let m;
 
-if (m = lowerNumber) {
-} else if (m <= higherNumber) {
+ if (m = lowerNumber) {
+ } else if (m <= higherNumber) {
 
-}
+ }
 
 
 
