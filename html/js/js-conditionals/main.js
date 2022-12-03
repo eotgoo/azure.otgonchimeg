@@ -1,55 +1,32 @@
-let weekNumber = 1;
-let weekName;
-if (weekNumber == 1) {
-weekName = 'Даваа';
-} else if (weekNumber == 2) {
-weekName = 'Мягмар';
-} else if (weekNumber == 3) {
-weekName = 'Лхагва';
-} else if (weekNumber == 4) {
-weekName = 'Пүрэв';
-} else if (weekNumber == 5) {
-weekName = 'Баасан';
-} else if (weekNumber == 6) {
-weekName = 'Бямба'
-} else if (weekNumber == 7) {
-weekName = "Ням"
-} else {
-weekName = "Буруу тоо"
-}
-console.log(weekName);
+   //task1   "Өгөгдсөн 4 тооны 80-аас их тоонуудын нийлбэрийг ол"
 
+ let a = 85;
+ let b = 75;
+ let c = 96;
+ let d = 69;
 
-let gender = 'male';
-let age = 19;
-
-if (gender === 'male' && age >= 18) {
-    console.log('насанд хүрсэн эрэгтэй');
-}else {
-    console.log('насанд хүрээгүй эсвэл хүйс тохирохгүй байна');
-}
-
-//task1
-let a = 85;
-let b = 75;
-let c = 96;
-let d = 69;
-
-let sum = 0 ;
-if ( a > 80 ){
+ let sum = 0 ;
+ if ( a > 80 ){
    sum = sum+a;
-}
-if ( b > 80 ){
+ }
+ if ( b > 80 ){
     sum=sum+b;
-}
-if ( c > 80 ){
+ }
+ if ( c > 80 ){
     sum=sum+c;
-}
-if ( d > 80 ){
+ }
+ if ( d > 80 ){
     sum=sum+d;
-}
-console.log("sum=" , sum);
+ }
+ console.log("sum=" , sum);
+   
 
+    //task2   "Өгөгдсөн 4 тооны 5-аас бага тоонуудын үржвэрийг ол"
+
+ let number1 = 2;
+ let number2 = 3;
+ let number3 = 6;
+ let number4 = 5;
 
 //task2-1
 let i = 4 > 3; //true
@@ -185,6 +162,35 @@ if(name2Dun<=59) {
 
 
 //task7
+// let weekNumber = 1;
+// let weekName;
+// if (weekNumber == 1) {
+// weekName = 'Даваа';
+// } else if (weekNumber == 2) {
+// weekName = 'Мягмар';
+// } else if (weekNumber == 3) {
+// weekName = 'Лхагва';
+// } else if (weekNumber == 4) {
+// weekName = 'Пүрэв';
+// } else if (weekNumber == 5) {
+// weekName = 'Баасан';
+// } else if (weekNumber == 6) {
+// weekName = 'Бямба'
+// } else if (weekNumber == 7) {
+// weekName = "Ням"
+// } else {
+// weekName = "Буруу тоо"
+// }
+// console.log(weekName);
 
+
+// let gender = 'male';
+// let age = 19;
+
+// if (gender === 'male' && age >= 18) {
+//     console.log('насанд хүрсэн эрэгтэй');
+// }else {
+//     console.log('насанд хүрээгүй эсвэл хүйс тохирохгүй байна');
+// }
 
 
