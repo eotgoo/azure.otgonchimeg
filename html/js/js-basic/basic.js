@@ -114,12 +114,6 @@
 
    //task21    "3 оронтоо тооны хамгийн эхний цифрийг олох илэрхийлэл бич"
 
- let number1 = 235;
- let number2 = 100;
- 
- console.log("3 orontoi tooni ehni too:" , number1/number2/number1*number2);
-
-
    //task22   "Baby Shark"
 
  let one = "Baby Shark ";
