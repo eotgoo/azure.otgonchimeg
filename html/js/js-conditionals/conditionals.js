@@ -306,12 +306,28 @@
 
     //task9   "Хоёр багийн дундаж оноог олно уу."
 
- let aTeam = 96;
- let aTeam1 = 108;
- let aTeam2 = 89;
- let bTeam = 88;
- let bTeam1 = 91; 
- let bTeam2 = 110;
+//  let aTeam = 96;
+//  let aTeam1 = 108;
+//  let aTeam2 = 89;
+//  let bTeam = 88;
+//  let bTeam1 = 91; 
+//  let bTeam2 = 110;
 
- console.log('hoyr bagiin dundaj onoo:', (aTeam+aTeam1+aTeam2)/3+(bTeam+bTeam1+bTeam2)/3);
+//  console.log('hoyr bagiin dundaj onoo:', (aTeam+aTeam1+aTeam2)/3+(bTeam+bTeam1+bTeam2)/3);
 
+
+//  if ((aTeam+aTeam1+aTeam2)/3 > (bTeam+bTeam1+bTeam2)/3) {
+//     console.log('A team ylsan')
+//  } else if ((aTeam+aTeam1+aTeam2)/3 < (bTeam+bTeam1+bTeam2)/3) {
+//     console.log('B team ylsan')
+//  } else if ((aTeam+aTeam1+aTeam2)/3 == (bTeam+bTeam1+bTeam2)/3) {
+//     console.log('hoyr bag tentssen')
+//  } else {
+//     console.log('ylagch obsomnida')
+//  }
+
+
+    //task10      "Gonchig guain idsen hoolni tulburig l olnodu"
+
+ let tulbur = prompt ('ta tulburuu oruulna uu');
+ 
