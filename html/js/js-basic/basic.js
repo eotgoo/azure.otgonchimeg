@@ -114,9 +114,9 @@
 
    //task21    "3 оронтоо тооны хамгийн эхний цифрийг олох илэрхийлэл бич"
 
-//  let too = 735;
+ let too = 735;
 
-//  console.log( too = too /100,  Math.round(too))
+ console.log( too = too /100,  Math.round(too))
  
 
 

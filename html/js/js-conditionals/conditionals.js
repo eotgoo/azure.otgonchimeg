@@ -330,4 +330,7 @@
     //task10      "Gonchig guain idsen hoolni tulburig l olnodu"
 
  let tulbur = prompt ('ta tulburuu oruulna uu');
- 
+ let nemeltTulbur = 0;
+
+ 5000 >= tulbur >= 30000 ? nemeltTulbur  = tulbur * 15 / 100  : nemeltTulbur = tulbur * 20 / 100;
+ console.log('nemelt tulbur ni:' ,nemeltTulbur)
