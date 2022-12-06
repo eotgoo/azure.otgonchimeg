@@ -13,28 +13,34 @@
 
 //task "array of numbers"
 
-// let arrayOfNumbers = [43, 56, 23, 89, 88, 90, 99, 652, 15, 290, 11];
-// let sum = 0;
-// let i = 0;
-// let max = 0;
+let arrayOfNumbers = [43, 56, 23, 89, 88, 90, 99, 652, 15, 290, 11];
+let sum = 0;
+let l = 0;
+let max = 0;
+           
+         //toonuudin niilber oloh
 
-// while (i < arrayOfNumbers.length ) {
-//     sum+=arrayOfNumbers[i];
-//     i++;
-// }
-// console.log('toonudin niilber:' ,sum);
+while ( l < arrayOfNumbers.length ) {
+    sum+=arrayOfNumbers[l];
+    l++;
+}
+console.log('toonudin niilber:' ,sum);
 
-// for ( let a = 0; a < arrayOfNumbers.length; a++) {
-//     if (max < arrayOfNumbers [a]) {
-//         max = arrayOfNumbers [a];
-//     }
-// }
-// console.log('max utga ni:' , max);
+        //hamgin ih too
+
+for ( let a = 0; a < arrayOfNumbers.length; a++) {
+    if (max < arrayOfNumbers [a]) {
+        max = arrayOfNumbers [a];
+    }
+}
+console.log('max utga ni:' , max);
+
+        ///hamgin baga too
 
 
-     //task "paskalin guwraljin"
 
- let pascal = [1];
+     
+
 
 
 

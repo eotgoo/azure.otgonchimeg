@@ -50,7 +50,7 @@
 //  console.log("m = y2-y1/x2-x1" , y**2-y**1/x**2-x**1);
 
    //task13   "15gb ni heden bittei tenstu ve"
-
+   
 //  let gb = 15;
 //  console.log("15gb=" , gb*2**30*8);
 
