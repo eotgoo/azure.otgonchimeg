@@ -333,4 +333,4 @@
  let nemeltTulbur = Number(tulbur);
 
  5000 >= tulbur && tulbur >= 30000 ? nemeltTulbur += tulbur * 0.15  : nemeltTulbur += tulbur * 0.2;
- console.log('nemelt tulbur ni:' ,nemeltTulbur)
+ console.log('nemelt tulbur ni:' ,nemeltTulbur);

@@ -143,7 +143,7 @@
 //     max = Math.max (a, b);
 //     min = Math.min (a, b);
 //     while ( min <= max ) {
-//         if (min % 2          == 0) {
+//         if (min % 2 == 0) {
 //             console.log ( min )
 //         }
 //         min++
@@ -172,3 +172,14 @@
 
     //task3      "dahiad Gonchigsumlai"
 
+a = Number (prompt('hoolni tulboroo oruulna uu'));
+function count(a) {
+    if (5000 >= a && a >= 30000) {
+        niitTulbur += a * 0.15;
+        console.log(niitTulbur);
+    } else {
+        niitTulbur += a * 0.2;
+        console.log(niitTulbur);
+    }
+}
+console.log('niit tulbur: ' , count(a));
