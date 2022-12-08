@@ -31,10 +31,12 @@
 // console.log('modify Tea to GreenTea:' , shoppingCart)
 
 
+
     //task3    "reverse number"
 
 // numbers = [1, 2, 3, 4, 5];
 // console.log('reversed:' , numbers.reverse());
+
 
 
     //task4    "parameterize a string"
@@ -43,13 +45,15 @@
 // console.log('dundur zuraas oruulah:' , words.join('-'));
 
 
+
     //task5   "banknii oochir"
 
-let names = ["Бат","Дорж", "Пунцаг","Готов","Баяраа", "Болд", "Навчаа", "Гончигсумлай", "Цэцгээ", "Нэргүй", "Бальбийгомбо", "Баатар" ];
-console.log('ehnii 10 hun:' , names.slice(0,10));
-names.splice(7, 0, 'Нараа' , 'Сараа');
-console.log('gonchigsumlaid oochir zahisan 2 nemegdev:' , names);
-console.log('unoodor uilchluuleh 10 hun ni:' , names.slice(0,10));
+// let names = ["Бат","Дорж", "Пунцаг","Готов","Баяраа", "Болд", "Навчаа", "Гончигсумлай", "Цэцгээ", "Нэргүй", "Бальбийгомбо", "Баатар" ];
+// console.log('ehnii 10 hun:' , names.slice(0,10));
+// names.splice(7, 0, 'Нараа' , 'Сараа');
+// console.log('gonchigsumlaid oochir zahisan 2 nemegdev:' , names);
+// console.log('unoodor uilchluuleh 10 hun ni:' , names.slice(0,10));
+
 
 
     //task6   "palindromic checker"
@@ -57,24 +61,22 @@ console.log('unoodor uilchluuleh 10 hun ni:' , names.slice(0,10));
 a = prompt('ta utga oruulna uu');
 function haha(a) {
     revVal = a.toString().split('').reverse().join(" ");
-    value = a.toString();
-    if (revVal == value) {
-        console.log('palindrome')
-    } else {
-        console.log('not palindrome')
-    }
+    val = a.toString();
+    if (revVal == val) return 'palindrome';
+    else return 'not palindrome';
 }
 console.log(haha(a));
 
 
+
     //task 7    "array-s todorhoi element ustgah"
 
-function remArray(a) {
-    for (let i = 0; i < a.length; i++) {
-        if (a[i] >= 5) {
-            a.splice([i] , 1); return a
-        }
-        else return a;
-    }
-}
-console.log(remArray([1 , 4, 7, 9, 10]));
+// function remArray(a) {
+//     for (let i = 0; i < a.length; i++) {
+//         if (a[i] >= 5) {
+//             a.splice([i] , 1); return a
+//         }
+//         else return a;
+//     }
+// }
+// console.log(remArray([1 , 4, 7, 9, 10]));
