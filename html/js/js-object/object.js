@@ -257,7 +257,47 @@ const users = [
       }
 ]
 
-console.log(users[2]);
+    //Нэг хэрэглэгчийн объектын бүх утгыг авч хэвлэх.
 
-    //ur chadwar ezemshih
+// console.log(users[2]);
 
+    //olon ur chadwar ezemshsen
+
+// let skill = [];
+// for (i = 0; i < users.length; i++) {
+//     skill.push(users[i].skills.length);
+//     max = Math.max(...skill);
+// }
+// console.log('hamgin ih skills ni :' , max);
+
+    //newtersen usersig tooloh
+
+// function loggedStatus () {
+//     for (i = 0; i < users.length; i++) {
+//         if (users[i].isLoggedIn === true) {
+//             console.log('isLoggedIn:' ,users[i]);
+//         }
+//         else {
+//             console.log('not logged:' , users[i]);
+//         }
+//     }
+// }
+// console.log(loggedStatus(users));
+
+    //50s deesh ono awsnig tool
+
+// function pointsStatus () {
+//     for (i = 0; i < users.length; i++) {
+//         if (users[i].points >= 50) {
+//             console.log(users[i]);
+//         }
+//     }
+// }
+// console.log(pointsStatus(users));
+
+
+    //MongoDB, Express, React, Node hugjuulegchdig oloh
+
+for (i = 0; i < users.length ; i++) {
+    console.log(users[i].skills.indexOf('MongoDB' , 'Express' , 'React' , 'Node'));
+}
