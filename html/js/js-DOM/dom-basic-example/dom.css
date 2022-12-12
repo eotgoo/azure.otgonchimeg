@@ -6,7 +6,6 @@ body{
     height: 30px;
     border-radius: 30px;
     color: rgb(0, 0, 0);
-    display: inline-block;
 }
 .box{
     width: 100px;
@@ -14,4 +13,7 @@ body{
     border: 1px solid red;
     display: inline-block;
     margin: 10px;
+}
+#buttons {
+    margin: auto;
 }
