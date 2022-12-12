@@ -1,32 +1,32 @@
     //task1       "accessing objects"
 
-// let students=[
-//     {
-//     name: 'Сэд-Эрдэнэ',
-//     age: 19,
-//     gender: "male"
-// },
-//     {
-//     name: 'Индра',
-//     age: 19,
-//     gender: "female"
-// },
-//     {
-//     name: 'Хатнаа ',
-//     age: 21,
-//     gender: "male"
-// },
-//     {
-//     name: 'Тэмүүлэн',
-//     age: 24,
-//     gender: "male"
-// },
-//     {
-//     name: 'Намуун',
-//     age: 23,
-//     gender: "female"
-// },
-// ];
+let students=[
+    {
+    name: 'Сэд-Эрдэнэ',
+    age: 19,
+    gender: "male"
+},
+    {
+    name: 'Индра',
+    age: 19,
+    gender: "female"
+},
+    {
+    name: 'Хатнаа ',
+    age: 21,
+    gender: "male"
+},
+    {
+    name: 'Тэмүүлэн',
+    age: 24,
+    gender: "male"
+},
+    {
+    name: 'Намуун',
+    age: 23,
+    gender: "female"
+},
+];
 
 
  //er em tooloh
@@ -74,21 +74,21 @@
 
  //ijil nas oloh
 
-// let arrayOfAges = [];
-// let ages = 0;
-// let same = [];
-// for( i = 0; i < students.length; i++) {
-//     ages = students[i].age;
-//     arrayOfAges.push(ages);
-// }
-// for (l= 0; l < arrayOfAges.length; l++) {
-//     for (j = l+1; j < arrayOfAges.length; j++) {
-//         if (arrayOfAges[l] == arrayOfAges[j]) {
-//             same.push(arrayOfAges[l], arrayOfAges[j]);
-//         }
-//     }
-// }
-// console.log('same ages:',same);
+let arrayOfAges = [];
+let ages = 0;
+let same = [];
+for( i = 0; i < students.length; i++) {
+    ages = students[i].age;
+    arrayOfAges.push(ages);
+}
+for (l= 0; l < arrayOfAges.length; l++) {
+    for (j = l+1; j < arrayOfAges.length; j++) {
+        if (arrayOfAges[l] == arrayOfAges[j]) {
+            same.push(arrayOfAges[l], arrayOfAges[j]);
+        }
+    }
+}
+console.log('same ages:',same); 
 
 
 
@@ -298,6 +298,16 @@ const users = [
 
     //MongoDB, Express, React, Node hugjuulegchdig oloh
 
-for (i = 0; i < users.length ; i++) {
-    console.log(users[i].skills.indexOf('MongoDB' , 'Express' , 'React' , 'Node'));
-}
+// for (i = 0; i < users.length ; i++) {
+//     console.log(users[i].skills.indexOf('MongoDB' , 'Express' , 'React' , 'Node'));
+// }
+
+    //Хамгийн их настай 3 хүмүүсийн мэдээллийг хэвлэх
+
+// let ageOfUsers = [];
+// for (i = 0; i < users.length; i++) {
+//     ageOfUsers.push(users[i].age);
+// }
+// console.log('buh usersin nas:',ageOfUsers);    //dutuu!!!!!!!
+
+
