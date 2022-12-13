@@ -1,0 +1,18 @@
+body {
+    height: 100vh;
+    background-color: salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button {
+    background-color: #1C315E; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
