@@ -16,13 +16,18 @@ body {
 #time {
     font-size: 16px;
     color: #495579;
-    text-align: center;
-    margin-bottom: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: none;
+    margin-left: 170px;
+}
+#time:focus{
+    outline: 1px solid #453C67;
 }
 #addList {
     color: #ababab;
     font-size: 20px;
-    border: 2px solid orange;
+    border: 2px solid #2B3467;
     width: 400px;
     height: 40px;
     background-color: #EFF5F5;
@@ -36,10 +41,10 @@ body {
 #btn {
     height: 44px;
     width: 80px;
-    border: 2px solid orange;
+    border: 2px solid black;
     font-size: 16px;
     color: #fff;
-    background-color: #FF884B;
+    background-color: #2B3467;
 }
 #listName {
     font-size: 48px;
@@ -49,13 +54,14 @@ body {
     margin-bottom: auto;
 }
 hr {
-    border: 1px solid #1746A2 ;
+    border: 1px solid #495579;
+    background-color: #495579;
     margin-bottom: 10px;
 }
 .listSection {
     width: 488px;
     height: 50px;
-    border: 2px solid orange;
+    border: 2px solid #2B3467;
     border-radius: 5px;
     background-color: #EFF5F5;
     margin-bottom: 10px;
@@ -67,6 +73,7 @@ hr {
     height: 40px;
     margin-top: 5px;
     background-color: #EFF5F5;
+    font-size: 20px;
 }
 #addedTask:focus{
     outline: none;

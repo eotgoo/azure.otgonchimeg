@@ -22,7 +22,7 @@ const add = (text) => {
 const taskAdd = () => {
     let text = haha.value;
     if(text === ""){
-        alert("ta utga oruulagui baina");
+        alert("Та жагсаалтанд утга оруулаагүй байна.");
     }else{
 
         grouptodo.innerHTML += add(text);
