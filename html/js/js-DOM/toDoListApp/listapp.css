@@ -1,0 +1,76 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title{
+    font-size: 48px;
+    color:#453C67;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: auto;
+}
+
+#time {
+    font-size: 16px;
+    color: #495579;
+    text-align: center;
+    margin-bottom: auto;
+}
+#addList {
+    color: #ababab;
+    font-size: 20px;
+    border: 2px solid orange;
+    width: 400px;
+    height: 40px;
+    background-color: #EFF5F5;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+#addList:focus{
+    outline: none;
+}
+#btn {
+    height: 44px;
+    width: 80px;
+    border: 2px solid orange;
+    font-size: 16px;
+    color: #fff;
+    background-color: #FF884B;
+}
+#listName {
+    font-size: 48px;
+    color:#453C67;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: auto;
+}
+hr {
+    border: 1px solid #1746A2 ;
+    margin-bottom: 10px;
+}
+.listSection {
+    width: 488px;
+    height: 50px;
+    border: 2px solid orange;
+    border-radius: 5px;
+    background-color: #EFF5F5;
+    margin-bottom: 10px;
+}
+#addedTask {
+    text-align: start;
+    border: none;
+    width: 380px;
+    height: 40px;
+    margin-top: 5px;
+    background-color: #EFF5F5;
+}
+#addedTask:focus{
+    outline: none;
+}
+i {
+    margin-left: 10px;
+}
