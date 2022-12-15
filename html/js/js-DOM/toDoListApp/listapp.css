@@ -13,22 +13,24 @@ body {
     margin-bottom: auto;
 }
 
-#time {
+#time{
     font-size: 16px;
     color: #495579;
     text-align: center;
-    margin-bottom: auto;
+    margin-top: 20px;
 }
+
 #addList {
     color: #ababab;
-    font-size: 20px;
-    border: 2px solid orange;
+    font-size: 16px;
+    border: 2px solid #2B3467;
     width: 400px;
     height: 40px;
     background-color: #EFF5F5;
     border-top: none;
     border-right: none;
     border-left: none;
+    text-align: center;
 }
 #addList:focus{
     outline: none;
@@ -36,10 +38,11 @@ body {
 #btn {
     height: 44px;
     width: 80px;
-    border: 2px solid orange;
-    font-size: 16px;
+    border: 2px solid black;
     color: #fff;
-    background-color: #FF884B;
+    font-size: 16px;
+    background-color: #2B3467;
+    cursor: pointer;
 }
 #listName {
     font-size: 48px;
@@ -48,18 +51,23 @@ body {
     text-align: center;
     margin-bottom: auto;
 }
+
 hr {
-    border: 1px solid #1746A2 ;
+    border: 1px solid #495579;
+    background-color: #495579;
     margin-bottom: 10px;
 }
+
 .listSection {
     width: 488px;
     height: 50px;
-    border: 2px solid orange;
+    border: 2px solid #2B3467;
     border-radius: 5px;
     background-color: #EFF5F5;
     margin-bottom: 10px;
+    margin-left: 20px;
 }
+
 #addedTask {
     text-align: start;
     border: none;
@@ -67,10 +75,26 @@ hr {
     height: 40px;
     margin-top: 5px;
     background-color: #EFF5F5;
+    font-size: 16px;
 }
+
 #addedTask:focus{
     outline: none;
 }
+
+#grouptodo {
+    text-align: center;
+}
+
+#grouptodo button{
+    border: none;
+    background-color: #EFF5F5;
+}
+
+.line {
+    text-decoration: line-through;
+}
+
 i {
-    margin-left: 10px;
+    cursor: pointer;
 }
