@@ -24,7 +24,7 @@ const taskAdd = () => {
     if(text === ""){
         alert("ta utga oruulagui baina");
     }else{
-
+        
         grouptodo.innerHTML += add(text);
     }
 }
