@@ -1,14 +1,16 @@
     //task1  "simple array1"
 
-//  let itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'];
-//  let i = 0;
+ let itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'];
 
-//  console.log(itCompanies);
-//  console.log(itCompanies.length);
-//  console.log('hamgin ehni company:' , itCompanies[0]);
-//  console.log('hamgin suulin company: ' ,itCompanies[6])
+ console.log(itCompanies);
+ console.log(itCompanies.length);
+ console.log('hamgin ehni company:' , itCompanies[0]);
+ console.log('hamgin suulin company: ' ,itCompanies[6])
 
-//  console.log
+ for (i=0; i<itCompanies.length; i++) {
+
+    console.log("companies:" , itCompanies[0])
+ }
  
 
 //task "array of numbers"
