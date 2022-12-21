@@ -3,7 +3,9 @@ let operator = document.querySelectorAll(".opr");
 let result = document.getElementById("result");
 
 
-for ( i =0; i <number.length; i++)
+for ( i =0; i <number.length; i++) {
+    number[i]
+}
 
 //input
 
