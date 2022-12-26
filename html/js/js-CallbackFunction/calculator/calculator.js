@@ -8,22 +8,8 @@ let uildel = null;
 let result = 0;
 
 
-<<<<<<< HEAD
-for ( i =0; i <number.length; i++) {
-    number[i]
-}
 
-//input
-
-// function display(calc) {
-//     document.getElementById('calc').value += calc;
-//     return calc;
-// };
-
-=======
->>>>>>> 71b4f786eb35e488f672b99ac71e28340818b567
 //AC
-
  const clr= ()=>{
     calc.value = '';
  }
@@ -31,7 +17,6 @@ for ( i =0; i <number.length; i++) {
  
 
  //number
-
  numbersBtn.forEach((btn)=>{
     btn.addEventListener("click",(event)=>{
         const value = event.target.value;
@@ -43,7 +28,6 @@ for ( i =0; i <number.length; i++) {
 
 
  //opr
-
  operatorBtn.forEach((btn)=>{
     btn.addEventListener("click", (ev)=>{
      uildel = ev.target.value;
