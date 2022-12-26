@@ -28,6 +28,7 @@ body {
 
 .calcInput input:focus {
     outline: none;
+    
 }
 
 .calcKey {
