@@ -1,12 +1,11 @@
-// all variables and dom
-
+console.log("ECOMMERCE");
+// All variables and DOM
 const productList = document.querySelector(".productList");
 const cartList = document.querySelector(".cartList");
 const productsEvent = document.querySelector(".productsEvent");
 const cartCount = document.querySelector(".cartCount");
 let allProducts = [];
 let cartProducts = [];
-
 
 const displayProduct = () => {
   productList.innerHTML = "";
@@ -36,7 +35,6 @@ const displayProduct = () => {
   });
 };
 
-
 const getProducts = async () => {
   const response = await fetch("https://dummyjson.com/products");
   const data = await response.json();
@@ -44,43 +42,48 @@ const getProducts = async () => {
   displayProduct();
   displayCart();
 };
+
 getProducts();
-
-
-const displayCart = () => {
-  cartList.innerHTML = "";
-  for (product of cartProducts) {
-    const cartItem = `
-            <div class="offcanvas-body">
-              <div class="card mb-3" style="max-width: 540px;">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="${product.thumbnail}" class="img-fluid rounded start" alt="">
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">${product.title}</h5>
-                    <h3>$${product.price}</h3>
-                    <div class="counter">
-                      <button class="btn btn-light">-</button>
-                      <span class="m-3">0</span>
-                      <button class="btn btn-ligth">+</button>
-                    </div>
-                    <hr>
-                    <div class="mt-2 d-flex justify-content-between">
-                      <p>total price:</p>
-                      <span>$</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>`;
-    cartList.innerHTML += cartItem;
-  }
-};
 
 const addCart = (idx) => {
   cartProducts.push(allProducts[idx]);
   cartCount.innerText = cartProducts.length;
   displayCart();
+};
+
+const displayCart = () => {
+  cartList.innerHTML = "";
+  for (product of cartProducts) {
+    const cartItem = `
+        <div class="d-flex align-items-center mb-5 border border-warning border-2">
+            <div class="flex-shrink-0">
+              <img
+                src="${product.thumbnail}"
+                class="img-fluid"
+                style="width: 150px"
+                alt="Generic placeholder image"
+              />
+            </div>
+            <div class="flex-grow-1 ms-3">
+              <button class="btn float-end text-black">
+                <i class="fas fa-times"></i>
+              </button>
+              <h5 class="text-primary">${product.title}</h5>
+              <h6 style="color: #9e9e9e">Color: white</h6>
+              <div class="d-flex align-items-center">
+                <p class="fw-bold mb-0 me-5 pe-3">${product.price}</p>
+                <div class="">
+                  <input
+                    class="form-control"
+                    min="0"
+                    id="quantity"
+                    value="1"
+                    type="number"
+                  />
+                </div>
+              </div>
+            </div>
+        </div>`;
+    cartList.innerHTML += cartItem;
+  }
 };
