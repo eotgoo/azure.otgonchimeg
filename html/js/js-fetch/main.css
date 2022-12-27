@@ -1,0 +1,87 @@
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(73, 73, 247);
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.navSearch {
+    background-color: #cfcfcf;
+    width: 800px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.navSearch button {
+    margin: 10px;
+    background-color: #cfcfcf;
+    border: none;
+}
+
+.navSearch input {
+    width: 690px;
+    background-color: #cfcfcf;
+    border: none;
+}
+.navSearch input:focus {
+    outline: none;
+}
+
+.signIn button {
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid blue;
+    font-size: 16px;
+    color: blue;
+}
+
+.shoppy button {
+    width: 60px;
+    height: 40px;
+    border: 1px solid blue;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #ababab;
+    margin: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.card img {
+    width: 300px;
+    height: 150px;
+}
+
+.card button {
+    width: 80px;
+    height: 30px;
+    color: #fff;
+    background-color: rgb(49, 203, 233);
+    margin-left: 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+.productList {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    justify-content: center;
+}
