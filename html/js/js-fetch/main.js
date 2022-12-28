@@ -65,9 +65,9 @@ const displayCart = () => {
                     <h5 class="card-title">${product.title}</h5>
                     <h3>$${product.price}</h3>
                     <div class="counter">
-                      <button class="btn btn-light">-</button>
+                      <button class="btn btn-light" onClick="amount2(this)">-</button>
                       <span class="m-3">${product.count}</span>
-                      <button class="btn btn-ligth" onClick="sumCount(this)">+</button>
+                      <button class="btn btn-ligth" onClick="amount1(this)">+</button>
                     </div>
                   </div>
                 </div>
@@ -98,6 +98,22 @@ const addCart = (productId) => {
   cartCount.innerText = cartProducts.length;
   displayCart();
 };
+
+//+ -
+
+const amount1 = (i) => {
+  cartProducts[importScripts].count += 1;
+  displayCart();
+}
+const amount2 = (i) => {
+  if(cartProducts[i].count > 1){
+    cartProducts[i].count -= 1;
+    displayCart();
+  } else {
+    remove(i);
+  }
+};
+
 
 // added cart-delete
 
@@ -153,7 +169,6 @@ const getCategoryProduct = async (category) => {
 };
 
 
-//+
 
 
 
