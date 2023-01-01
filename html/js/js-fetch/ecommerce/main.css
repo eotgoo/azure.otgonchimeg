@@ -1,0 +1,38 @@
+nav ul {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 60px;
+    background-color: black;
+    list-style-type: none;
+}
+
+.nav-find {
+    border: 2px solid #2C4F9A;
+    width: 700px;
+    height: 45px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+li button {
+    background-color: #000;
+}
+.nav-find input {
+    width: 600px;
+    height: 40px;
+    background-color: #000;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.nav-find input:focus {
+    outline: none;
+}
+
+
+
+
+
