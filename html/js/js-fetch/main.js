@@ -65,9 +65,9 @@ const displayCart = () => {
                     <h5 class="card-title">${product.title}</h5>
                     <h3>$${product.price}</h3>
                     <div class="counter">
-                      <button class="btn btn-light" onClick="amount2(this)">-</button>
+                      <button class="btn btn-light" onClick="countMin(${product.id})">-</button>
                       <span class="m-3">${product.count}</span>
-                      <button class="btn btn-ligth" onClick="amount1(this)">+</button>
+                      <button class="btn btn-ligth" onClick="countAdd(${product.id})">+</button>
                     </div>
                   </div>
                 </div>
@@ -168,7 +168,21 @@ const getCategoryProduct = async (category) => {
   displayProduct();
 };
 
+//counter add
 
+let countAdd = (cartId) => {
+  let index = cartProducts.map(e => e.id).indexOf(cartId);
+  if (index>=0) cartProducts[index].count++;
+  displayCart();
+}
+
+//counter min
+
+let countMin = (cartId) => {
+  let index = cartProducts.map(e => e.id).indexOf(cartId);
+  if (index>=0) cartProducts[index].count--;
+  displayCart();
+}
 
 
 
